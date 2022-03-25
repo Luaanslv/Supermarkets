@@ -35,9 +35,19 @@ input[type='date']:disabled{
 }
 .btn{
   font-size: 15px;
+  width: 100%;
 }
 .bg-secondary{
   background-color: var(--secondary) !important;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:hover{
+  background-color:var(--primary) !important;
+  border-color:var(--primary);
 }
 
 .btn-secondary,
@@ -47,10 +57,6 @@ input[type='date']:disabled{
 .btn-secondary:hover{
   background-color: var(--secondary) !important;
   border-color: var(--secondary);
-}
-
-.btn-secondary{
-  width: 370px;
 }
 
 .box{
